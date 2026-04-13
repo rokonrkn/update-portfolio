@@ -1,0 +1,99 @@
+import { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { FiGithub, FiExternalLink, FiCode } from 'react-icons/fi';
+
+gsap.registerPlugin(ScrollTrigger);
+
+const PROJECT_ICONS = [FiCode, FiExternalLink, FiGithub];
+
+export default function Projects({ data }) {
+  const { projects } = data;
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from('.projects-header', {
+        y: 30, opacity: 0, duration: 0.7, ease: 'power3.out',
+        scrollTrigger: { trigger: '.projects-header', start: 'top 85%' },
+      });
+      gsap.from('.project-card', {
+        y: 60, opacity: 0, stagger: 0.15, duration: 0.8, ease: 'power3.out',
+        scrollTrigger: { trigger: '.projects__grid', start: 'top 80%' },
+      });
+    }, sectionRef);
+    return () => ctx.revert();
+  }, []);
+
+  const projectColors = [
+    { from: '#4f46e5', to: '#7c3aed' },
+    { from: '#0891b2', to: '#0e7490' },
+    { from: '#7c3aed', to: '#db2777' },
+  ];
+
+  return (
+    <section className="section" id="projects" ref={sectionRef}>
+      <div className="container">
+        <div className="section-header projects-header">
+          <span className="section-label">My Work</span>
+          <h2 className="section-title">
+            Featured <span className="gradient-text">Projects</span>
+          </h2>
+          <p className="section-subtitle">
+            A selection of projects that showcase my skills and problem-solving approach.
+          </p>
+        </div>
+
+        <div className="projects__grid">
+          {projects.map((project, index) => {
+            const color = projectColors[index % projectColors.length];
+            return (
+              <div className="project-card" key={index}>
+                <div className="project-card__header">
+                  <div
+                    className="project-card__bg"
+                    style={{ background: `linear-gradient(135deg, ${color.from}33, ${color.to}33)` }}
+                  />
+                  <div className="project-card__pattern" />
+                  <div
+                    className="project-card__icon-big"
+                    style={{ color: color.from }}
+                  >
+                    <FiCode />
+                  </div>
+                  <span className="project-card__badge">{project.category}</span>
+                  <div className="project-card__links">
+                    {project.github && project.github !== '#' && (
+                      <a href={project.github} target="_blank" rel="noreferrer" className="project-card__link" title="GitHub">
+                        <FiGithub />
+                      </a>
+                    )}
+                    {project.live && project.live !== '#' && (
+                      <a href={project.live} target="_blank" rel="noreferrer" className="project-card__link" title="Live Demo">
+                        <FiExternalLink />
+                      </a>
+                    )}
+                  </div>
+                </div>
+                <div className="project-card__body">
+                  <h3 className="project-card__title">{project.name}</h3>
+                  <p className="project-card__type">{project.type}</p>
+                  <div className="project-card__highlights">
+                    {project.highlights.slice(0, 2).map((h, i) => (
+                      <div className="project-card__highlight" key={i}>{h}</div>
+                    ))}
+                  </div>
+                  <div className="project-card__tech">
+                    {project.technologies.map((tech) => (
+                      <span className="project-card__tech-tag" key={tech}>{tech}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}

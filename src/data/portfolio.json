@@ -1,0 +1,144 @@
+{
+  "personal_information": {
+    "name": "MD. Rokonujjaman",
+    "title": "Full Stack Developer",
+    "tagline": "Crafting modern web experiences with clean code & creative design.",
+    "address": "Nikunja 2, Khilkhet, Dhaka-1229",
+    "phone": "01756-647124",
+    "email": "rokonislam195@gmail.com",
+    "linkedin": "https://linkedin.com/in/rokonujjaman",
+    "github": "https://github.com/rokonislam195"
+  },
+  "services": [
+    {
+      "icon": "FaCode",
+      "title": "Frontend Development",
+      "description": "Building beautiful, responsive user interfaces with React.js, TailwindCSS, and modern animation libraries."
+    },
+    {
+      "icon": "FaServer",
+      "title": "Backend Development",
+      "description": "Designing robust APIs and server-side logic with Node.js, Express.js, MongoDB, and REST architecture."
+    },
+    {
+      "icon": "FaDatabase",
+      "title": "Database Design",
+      "description": "Structuring efficient data models with MongoDB and MySQL to power scalable web applications."
+    },
+    {
+      "icon": "FaMobile",
+      "title": "Responsive Design",
+      "description": "Ensuring pixel-perfect layouts across all screen sizes with mobile-first design principles."
+    },
+    {
+      "icon": "FaShieldAlt",
+      "title": "Authentication & Security",
+      "description": "Implementing JWT-based authentication, Firebase Auth, and secure API design practices."
+    },
+    {
+      "icon": "FaCogs",
+      "title": "ERP Customization",
+      "description": "Developing and customizing ERP solutions with ERPNext and Frappe Framework using Python & JavaScript."
+    }
+  ],
+  "technical_skills": {
+    "frontend": ["HTML5", "CSS3", "Bootstrap", "React Bootstrap", "TailwindCSS", "JavaScript", "React.js", "Firebase"],
+    "backend": ["Node.js", "Express.js", "MongoDB", "REST API", "React Query", "Axios", "Redux", "Next.js", "JWT", "PHP", "MySQL"],
+    "tools": ["VS Code", "Figma", "Photopea", "Postman", "Git", "GitHub", "GitLab"],
+    "problem_solving": ["C", "C++", "DSA"]
+  },
+  "experience": [
+    {
+      "company": "Cloudy Camp Ltd.",
+      "role": "Software Engineer",
+      "start_date": "November 2025",
+      "end_date": "Present",
+      "responsibilities": [
+        "Design, develop, and customize ERP solutions using ERPNext and Frappe Framework",
+        "Implement Manufacturing, Stock, Accounts, and Commercial (LC) processes in ERPNext",
+        "Develop server-side scripts using Python and client-side logic using JavaScript"
+      ]
+    },
+    {
+      "company": "Nextgen Innovation Ltd.",
+      "role": "Junior Frontend Developer",
+      "start_date": "July 2024",
+      "end_date": "September 2025",
+      "responsibilities": [
+        "Assisted in frontend development tasks, ensuring seamless integration of new features and maintaining code quality standards",
+        "Contributed to the design of user interfaces and user experiences, focusing on creating intuitive, attractive, and user-centered solutions",
+        "Delivered software demonstrations and client presentations, effectively communicating technical functionalities and value propositions to stakeholders"
+      ]
+    },
+    {
+      "company": "HRSoft BD",
+      "role": "Frontend Development Intern",
+      "start_date": "September 2023",
+      "end_date": "January 2024",
+      "responsibilities": [
+        "Created responsive designs",
+        "Improved user experience (UX)",
+        "Collaborated with the development team to deliver polished web applications"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "UCB Bank Card Offers Microsite",
+      "type": "Banking card offers showcase microsite",
+      "technologies": ["JavaScript", "React.js", "Bootstrap", "Vanilla CSS", "Framer Motion"],
+      "highlights": [
+        "Designed and developed a dynamic microsite for UCB Bank to showcase card offers categorized by lifestyle, travel, dining, shopping, and more",
+        "Built with React.js for component-based architecture ensuring smooth navigation and efficient rendering",
+        "Implemented responsive UI using Bootstrap and custom Vanilla CSS for cross-device compatibility",
+        "Integrated Framer Motion for modern animations and interactive transitions",
+        "Structured with reusable components and scalable design patterns"
+      ],
+      "github": "#",
+      "live": "#",
+      "category": "Frontend"
+    },
+    {
+      "name": "American Home Solution LLC",
+      "type": "Property business website",
+      "technologies": ["React.js", "Express.js", "Node.js", "JWT", "MongoDB"],
+      "highlights": [
+        "Fully developed frontend, backend, vendor form system, authentication, admin dashboard, and email integration",
+        "Implemented automatic email confirmations via SMTP mailer integration upon vendor form submission"
+      ],
+      "github": "#",
+      "live": "#",
+      "category": "Full Stack"
+    },
+    {
+      "name": "Learn Language",
+      "type": "Educational website",
+      "technologies": ["JavaScript", "React.js", "Express.js", "Node.js", "MongoDB", "Firebase"],
+      "highlights": [
+        "User, classes, and other functions management",
+        "Authentication and payment system implementation",
+        "Admin, Instructor, and Student Dashboard implementation",
+        "Responsive and smart education system website"
+      ],
+      "github": "#",
+      "live": "#",
+      "category": "Full Stack"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Uttara University",
+      "degree": "BSc in Computer Science and Engineering",
+      "start_date": "2025",
+      "end_date": "Present",
+      "cgpa": null
+    },
+    {
+      "institution": "Shariatpur Polytechnic Institute",
+      "degree": "Diploma in Engineering (Computer Science)",
+      "start_date": null,
+      "end_date": "2023",
+      "cgpa": "3.57 out of 4"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+    {
+      "icon": "FaCode",
+      "title": "Frontend Development",
+      "description": "Building beautiful, responsive user interfaces with React.js, TailwindCSS, and modern animation libraries."
+    },
+    {
+      "icon": "FaServer",
+      "title": "Backend Development",
+      "description": "Designing robust APIs and server-side logic with Node.js, Express.js, MongoDB, and REST architecture."
+    },
+    {
+      "icon": "FaDatabase",
+      "title": "Database Design",
+      "description": "Structuring efficient data models with MongoDB and MySQL to power scalable web applications."
+    },
+    {
+      "icon": "FaMobile",
+      "title": "Responsive Design",
+      "description": "Ensuring pixel-perfect layouts across all screen sizes with mobile-first design principles."
+    },
+    {
+      "icon": "FaShieldAlt",
+      "title": "Authentication & Security",
+      "description": "Implementing JWT-based authentication, Firebase Auth, and secure API design practices."
+    },
+    {
+      "icon": "FaCogs",
+      "title": "ERP Customization",
+      "description": "Developing and customizing ERP solutions with ERPNext and Frappe Framework using Python & JavaScript."
+    }
+  ]

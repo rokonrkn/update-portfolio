@@ -96,7 +96,7 @@ export default function Contact({ data }) {
                   id="name"
                   name="name"
                   type="text"
-                  placeholder="John Doe"
+                  placeholder="Rokon Rkn"
                   value={formState.name}
                   onChange={handleChange}
                   required
@@ -108,7 +108,7 @@ export default function Contact({ data }) {
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder="rokon@example.com"
                   value={formState.email}
                   onChange={handleChange}
                   required

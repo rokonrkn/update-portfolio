@@ -1,7 +1,7 @@
 {
   "personal_information": {
     "name": "MD. Rokonujjaman",
-    "title": "Full Stack Developer",
+    "title": "Software Engineer",
     "tagline": "Crafting modern web experiences with clean code & creative design.",
     "address": "Nikunja 2, Khilkhet, Dhaka-1229",
     "phone": "01756-647124",
@@ -37,8 +37,8 @@
     },
     {
       "icon": "FaCogs",
-      "title": "ERP Customization",
-      "description": "Developing and customizing ERP solutions with ERPNext and Frappe Framework using Python & JavaScript."
+      "title": "ERP Solutions",
+      "description": "Developing and customizing ERP solutions with use Python and JavaScript."
     }
   ],
   "technical_skills": {
@@ -48,11 +48,22 @@
     "problem_solving": ["C", "C++", "DSA"]
   },
   "experience": [
+      {
+      "company": "KPJ Spcialised Hospital",
+      "role": "Executive Software Engineer",
+      "start_date": "May 2026",
+      "end_date": "Present",
+      "responsibilities": [
+        "Designed and developed Healthcare ERP systems using PHP and MySQL",
+        "Implemented core healthcare modules including OPD, IPD, Accounts, Stock, Inventory, and other hospital management processes",
+        "Built modern healthcare websites using React.js with responsive and user-friendly UI"
+      ]
+    },
     {
       "company": "Cloudy Camp Ltd.",
       "role": "Software Engineer",
       "start_date": "November 2025",
-      "end_date": "Present",
+      "end_date": "March 2026",
       "responsibilities": [
         "Design, develop, and customize ERP solutions using ERPNext and Frappe Framework",
         "Implement Manufacturing, Stock, Accounts, and Commercial (LC) processes in ERPNext",
@@ -139,6 +150,13 @@
       "start_date": null,
       "end_date": "2023",
       "cgpa": "3.57 out of 4"
+    },
+    {
+      "institution": "Textile Vocational Institute",
+      "degree": "Secondary School Certificate (SSC)",
+      "start_date": null,
+      "end_date": "2019",
+      "cgpa": "4.39 out of 5"
     }
   ]
 }

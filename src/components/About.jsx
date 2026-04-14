@@ -70,13 +70,18 @@ export default function About({ data }) {
               <span className="gradient-text">Creative Problem Solver</span>
             </h2>
             <p>
-              I&apos;m <strong>{personal_information.name}</strong>, a Full Stack Developer with hands-on experience
-              across frontend, backend, and ERP systems. My journey started with a Diploma in Computer Science
-              and has grown into professional experience at fast-paced tech companies.
+              I&apos;m <strong>{personal_information.name}</strong>, a Full Stack Developer with a strong focus on Healthcare ERP solutions, currently working on building and maintaining systems that support real-world healthcare operations.
             </p>
             <p>
-              I specialize in building scalable web applications using React.js, Node.js, and MongoDB.
-              Currently, I&apos;m also working with ERPNext and Frappe Framework, developing custom ERP solutions for enterprise clients.
+              My primary experience is in developing Healthcare ERP applications using PHP and MySQL, where I contribute to creating efficient, scalable, and user-friendly systems for managing medical workflows, data, and processes.
+
+            </p>
+            <p>
+              Alongside this, I am currently working as a MERN Stack Developer, building modern web applications using MongoDB, Express.js, React.js, and Node.js. I have also previously worked on ERP solutions for business operations, helping organizations improve efficiency through technology.
+
+            </p>
+            <p>
+              I am passionate about solving complex problems, especially in the healthcare domain, and continuously improving my skills to build better, more impactful systems.
             </p>
 
             <div className="about__contact-info">

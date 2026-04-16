@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { FiArrowRight, FiDownload, FiGithub, FiLinkedin, FiMail, FiCode } from 'react-icons/fi';
 import { FaBriefcase } from 'react-icons/fa';
 import img from '../assets/Rokon.png';
+import img1 from '../assets/rokon_back1.png';
 
 export default function Hero({ data }) {
   const { personal_information } = data;
@@ -76,7 +77,7 @@ export default function Hero({ data }) {
               <div className="hero__avatar-ring-2" />
               <div className="hero__avatar-blob" />
               <div className="hero__avatar-img">
-                <img src={img} alt="" />
+                <img src={img1} alt="" />
               </div>
 
               {/* Floating Card 1 */}

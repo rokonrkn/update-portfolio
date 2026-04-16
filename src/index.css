@@ -1702,7 +1702,9 @@ ul {
     left: 0;
   }
   .hero__floating-card-2 {
-    right: 0;
+    /* right: 0; */
+    right: -73px;
+    top: 30px;
   }
   .services__grid {
     grid-template-columns: repeat(2, 1fr);
